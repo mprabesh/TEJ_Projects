@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.tejcenter.org/images/logos/TEJ-main-lg.png">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script defer src="./js/guessing-game.js"></script>
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div id="app">
+        <div id="headers">
+            <h1 id="title">THE GUESSING GAME</h1>
+            <h3 id="subtitle">Guess a number between 1-100</h3>
+        </div>
+        <div id="main">
+            <div id="input-parent">
+                <input type="text" id="players-input" placeholder="TYPE GUESS HERE" maxlength="3" autofocus="autofocus" autocomplete="off"/>
+                <button id="submit">Go!</button>
+            </div>
+            <div id="guesses">
+                <ul id="guess-list">
+                    <li class="guess"></li>
+                    <li class="guess"></li>
+                    <li class="guess"></li>
+                    <li class="guess"></li>
+                    <li class="guess"></li>
+                </ul>
+            </div>
+            <div id="menu-btns">
+                <button id="reset" type="button">RESET THE GAME</button>
+                <button id="hint" type="button">NEED A HINT?</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="mygithublink">
+            <p id="myname">js-foundation excercise | fork at</p>
+            <a href="https://github.com/mprabesh/my-guessing-game">mprabesh</a>
+        </div>
+        <div id="tejimg"><img src="https://www.tejcenter.org/images/logos/TEJ-main-lg.png" alt="TEJ" width="50" height="35" id="tejicon"></div>
+
+    </div>
+</body>
+</html>
